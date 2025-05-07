@@ -28,17 +28,21 @@ We used the **DeepLabV3+** architecture with the **Xception** backbone, a powerf
 bash
 git clone https://github.com/yourusername/water-body-segmentation.git
 cd water-body-segmentation
+
+
 2. Install Requirements
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3. Prepare Dataset
+
+
+4. Prepare Dataset
 Download the dataset from Kaggle.
 
 Place the images and masks folders in the project directory.
 
-4. Train the Model
+5. Train the Model
 python
 Copy
 Edit
@@ -46,13 +50,6 @@ python train.py
 📊 Results & Evaluation
 Final validation Dice score: ~0.90
 
-Sample outputs:
-
-Input image
-
-Ground truth mask
-
-Predicted mask
 
 Confusion Matrix
 A confusion matrix is plotted to evaluate pixel-wise performance.
@@ -83,8 +80,12 @@ Edit
  Export model to ONNX or TFLite for mobile use
 
 👨‍💻 Author
-Your Name
-GitHub • LinkedIn
+Mayank Saini
+Mohd Umar Siddiqui
+GitHub https://github.com/mayanksaini9
+LinkedIn https://www.linkedin.com/in/mayank-saini-a3b566257/
+
+
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.

@@ -93,6 +93,3 @@ yaml
 Copy
 Edit
 
----
-
-Would you like me to generate the `requirements.txt` file as well for the project?

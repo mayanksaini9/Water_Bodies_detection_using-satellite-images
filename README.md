@@ -3,7 +3,7 @@
 This project performs **semantic segmentation** to detect water bodies from satellite images using a **DeepLabV3+** model with an **Xception backbone** in TensorFlow/Keras.
 
 ![Water Body Segmentation](https://img.shields.io/badge/model-DeepLabV3%2B-blue)  
-![License](https://img.shields.io/github/license/yourusername/water-body-segmentation)
+![License](https://img.shields.io/github/license/mayanksaini9/water-body-segmentation)
 
 ## 📁 Dataset
 
